@@ -1,0 +1,34 @@
+# Angin
+
+> Angin adalah aplikasi cuaca (Progressive Web App) yang ringan dan cepat, menampilkan perkiraan cuaca per jam dan 7 hari, kualitas udara (AQI), fase bulan, waktu matahari terbit/terbenam, dan manajemen kota tersimpan. Dibangun dengan vanilla JavaScript (tanpa framework) dan data dari Open-Meteo.
+
+Angin is a lightweight, fast Progressive Web App weather app showing hourly and 7-day forecasts, air quality (AQI), moon phase, sunrise/sunset times, and saved-city management. Built with vanilla JavaScript (no framework) using Open-Meteo data.
+
+## Fitur utama / Key features
+- Perkiraan cuaca real-time per jam dan 7 hari (hourly and 7-day forecasts)
+- Indeks kualitas udara / Air Quality Index (European AQI standard)
+- Fase bulan dan waktu matahari terbit/terbenam (moon phase, sunrise/sunset)
+- Grafik curah hujan 12 jam (12-hour precipitation chart)
+- Kota tersimpan dengan pencarian geocoding (saved cities with geocoding search)
+- Peringatan cuaca proaktif (suhu ekstrem, angin kencang, hujan deras)
+- Dukungan dua bahasa: Indonesia dan Inggris (bilingual: Indonesian and English)
+- Bisa dipasang sebagai aplikasi (installable PWA), berfungsi offline dengan data cache
+
+## Teknologi / Tech stack
+- Vanilla JavaScript (ES modules), tanpa framework
+- CSS murni buatan tangan, tanpa dependency build-time
+- Data cuaca: Open-Meteo API (gratis, tanpa API key)
+- Service worker untuk dukungan offline
+
+## Halaman / Pages
+- [Beranda](https://angin.vercel.app/): Halaman utama — cuaca kota aktif
+- [Pencarian](https://angin.vercel.app/?tab=search): Cari dan simpan kota
+- [Kota Tersimpan](https://angin.vercel.app/?tab=kota): Daftar kota favorit
+
+## Sumber data / Data source
+Semua data cuaca berasal dari [Open-Meteo](https://open-meteo.com), API cuaca open-source dan gratis. Angin tidak mengumpulkan atau menyimpan data pribadi pengguna di server manapun — semua preferensi dan kota tersimpan disimpan secara lokal di perangkat pengguna (localStorage).
+
+All weather data is sourced from [Open-Meteo](https://open-meteo.com), a free and open-source weather API. Angin does not collect or store user data on any server — all preferences and saved cities are stored locally on the user's device (localStorage).
+
+## Kontak / Contact
+Dibuat oleh AryaXzell — [github.com/aryaxzell](https://github.com/aryaxzell)

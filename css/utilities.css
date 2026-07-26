@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Cuaca — Minimal utility layer (hand-picked, only what's actually used)
+   ========================================================================== */
+
+.flex { display: flex; }
+.grid { display: grid; }
+.hidden { display: none !important; }
+.inline-flex { display: inline-flex; }
+.relative { position: relative; }
+.fixed { position: fixed; }
+.absolute { position: absolute; }
+.inset-0 { top:0; right:0; bottom:0; left:0; }
+
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
+.justify-start { justify-content: flex-start; }
+.flex-1 { flex: 1 1 0%; }
+.flex-wrap { flex-wrap: wrap; }
+.shrink-0 { flex-shrink: 0; }
+.grow { flex-grow: 1; }
+
+.gap-1 { gap: var(--sp-1); }
+.gap-1\.5 { gap: 6px; }
+.gap-2 { gap: var(--sp-2); }
+.gap-3 { gap: var(--sp-3); }
+.gap-4 { gap: var(--sp-4); }
+
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.w-full { width: 100%; }
+.max-w-md { max-width: 448px; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.uppercase { text-transform: uppercase; }
+.tracking-tight { letter-spacing: -0.02em; }
+.tracking-tighter { letter-spacing: -0.04em; }
+
+.font-thin { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.leading-none { line-height: 1; }
+
+.overflow-x-auto { overflow-x: auto; }
+.overflow-y-auto { overflow-y: auto; }
+.overflow-hidden { overflow: hidden; }
+
+.rounded-full { border-radius: var(--r-full); }
+
+.pointer-events-none { pointer-events: none; }
+.cursor-pointer { cursor: pointer; }
+
+.snap-x { scroll-snap-type: x mandatory; }
+.snap-center { scroll-snap-align: center; }
+
+.align-top { vertical-align: top; }
+.opacity-0 { opacity: 0; }
+
+.z-5 { z-index: 5; }
+
+/* Text color / size shorthand used across widgets */
+.text-white { color: var(--text-100); }
+.text-white\/80 { color: var(--text-80); }
+.text-white\/70 { color: var(--text-70); }
+.text-white\/60 { color: var(--text-60); }
+.text-white\/50 { color: var(--text-50); }
+.text-white\/45 { color: var(--text-45); }
+.text-white\/40 { color: var(--text-40); }
