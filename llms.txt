@@ -21,9 +21,9 @@ Angin is a lightweight, fast Progressive Web App weather app showing hourly and 
 - Service worker untuk dukungan offline
 
 ## Halaman / Pages
-- [Beranda](https://angin.vercel.app/): Halaman utama — cuaca kota aktif
-- [Pencarian](https://angin.vercel.app/?tab=search): Cari dan simpan kota
-- [Kota Tersimpan](https://angin.vercel.app/?tab=kota): Daftar kota favorit
+- [Beranda](https://angin-psi.netlify.app/): Halaman utama — cuaca kota aktif
+- [Pencarian](https://angin-psi.netlify.app/?tab=search): Cari dan simpan kota
+- [Kota Tersimpan](https://angin-psi.netlify.app/?tab=kota): Daftar kota favorit
 
 ## Sumber data / Data source
 Semua data cuaca berasal dari [Open-Meteo](https://open-meteo.com), API cuaca open-source dan gratis. Angin tidak mengumpulkan atau menyimpan data pribadi pengguna di server manapun — semua preferensi dan kota tersimpan disimpan secara lokal di perangkat pengguna (localStorage).

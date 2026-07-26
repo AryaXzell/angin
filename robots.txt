@@ -67,4 +67,4 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
-Sitemap: https://angin.vercel.app/sitemap.xml
+Sitemap: https://angin-psi.vercel.app/sitemap.xml
